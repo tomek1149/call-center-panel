@@ -1,0 +1,35 @@
+// Kolory statusów
+$color-new: #3B82F6;
+$color-in-progress: #F59E0B;
+$color-closed: #10B981;
+
+// Kolory priorytetów
+$color-high: #EF4444;
+$color-medium: #F59E0B;
+$color-low: #6B7280;
+
+// UI
+$color-primary: #6366F1;
+$color-bg: #F8FAFC;
+$color-surface: #FFFFFF;
+$color-text: #1E293B;
+$color-text-secondary: #64748B;
+$color-border: #E2E8F0;
+
+// Spacing
+$spacing-xs: 4px;
+$spacing-sm: 8px;
+$spacing-md: 16px;
+$spacing-lg: 24px;
+$spacing-xl: 32px;
+
+// Breakpoints
+$breakpoint-mobile: 768px;
+$breakpoint-tablet: 1024px;
+
+// Typography
+$font-family: 'Inter', system-ui, sans-serif;
+$font-size-sm: 0.875rem;
+$font-size-base: 1rem;
+$font-size-lg: 1.25rem;
+$font-size-xl: 1.5rem;
