@@ -2,10 +2,12 @@
 import { ref } from 'vue'
 
 defineProps<{
-  msg: string[]
+  msg: number
 }>()
 
 const count = ref(0)
+
+const x: number = "not a number";
 </script>
 
 <template>
