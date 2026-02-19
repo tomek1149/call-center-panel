@@ -1,20 +1,20 @@
-// Kolory statusów
-$color-new: #3B82F6;
-$color-in-progress: #F59E0B;
-$color-closed: #10B981;
+// Status colors
+$color-new: #3b82f6;
+$color-in-progress: #f59e0b;
+$color-closed: #10b981;
 
-// Kolory priorytetów
-$color-high: #EF4444;
-$color-medium: #F59E0B;
-$color-low: #6B7280;
+// Priority colors
+$color-high: #ef4444;
+$color-medium: #f59e0b;
+$color-low: #6b7280;
 
 // UI
-$color-primary: #6366F1;
-$color-bg: #F8FAFC;
-$color-surface: #FFFFFF;
-$color-text: #1E293B;
-$color-text-secondary: #64748B;
-$color-border: #E2E8F0;
+$color-primary: #6366f1;
+$color-bg: #f8fafc;
+$color-surface: #ffffff;
+$color-text: #1e293b;
+$color-text-secondary: #64748b;
+$color-border: #e2e8f0;
 
 // Spacing
 $spacing-xs: 4px;
@@ -22,6 +22,9 @@ $spacing-sm: 8px;
 $spacing-md: 16px;
 $spacing-lg: 24px;
 $spacing-xl: 32px;
+
+// Layout
+$topbar-height: 64px;
 
 // Breakpoints
 $breakpoint-mobile: 768px;
