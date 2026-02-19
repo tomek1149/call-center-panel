@@ -1,18 +1,14 @@
 <script setup lang="ts">
 import { useTicketsStore } from '@/stores/useTicketsStore'
-import { useConfirm } from 'primevue/useconfirm'
 import TicketCard from '@/components/tickets/TicketCard.vue'
 import Paginator from 'primevue/paginator'
 import { PAGINATION } from '@/constants/ticket'
-import { LABELS } from '@/constants/labels'
 import { Ticket } from '@/types/ticket'
 
 const store = useTicketsStore()
 const emit = defineEmits<{
   delete: [ticket: Ticket]
 }>()
-
-const confirm = useConfirm()
 
 const onPage = (event: { page: number; rows: number }) => {
   if (event.rows !== store.perPage) {
