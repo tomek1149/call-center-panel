@@ -2,3 +2,23 @@
 @use 'mixins' as *;
 @use 'reset';
 @use 'status-colors';
+
+.p-confirmdialog {
+  min-width: 25rem;
+}
+
+.create-dialog {
+  min-width: 31.25rem;
+
+  @media (max-width: $breakpoint-mobile) {
+    min-width: 90vw;
+  }
+}
+
+.confirm-dialog {
+  min-width: 25rem;
+
+  @media (max-width: $breakpoint-mobile) {
+    min-width: 90vw;
+  }
+}
